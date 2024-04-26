@@ -7,5 +7,5 @@ dist
 /assets/scss/bootstrap
 /assets/js/vendor
 /assets/css/app.css
-
+/assets/.DS_Store
 /assets/img/hamburger-menu.svg

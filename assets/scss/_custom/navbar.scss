@@ -5,10 +5,8 @@
 }
 .navbar-toggler-icon {
     background-color: $primary-light;
+    background-size: 1.75rem;
     border-radius: 50%;
-    background-size: 50%;
-    // Centering of the custom icon is a bit off, hence this extra positioning
-    background-position: center 45%;
     height: 3.125rem;
     width: 3.125rem;
 }
