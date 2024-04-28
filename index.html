@@ -30,7 +30,7 @@
             <div class="container">
                 <div class="row">
                     <nav class="navbar align-content-center">
-                        <ul class="socials list-unstyled d-flex">
+                        <ul class="socials list-unstyled d-flex mb-0">
                             <li>
                                 <a class="social-logo" href="https://www.facebook.com" rel="external noopener noreferrer" target="_blank">
                                     <img class="social-logo-icon" src="assets/img/facebook.svg" alt="Facebook">
@@ -95,16 +95,73 @@
     </header>
     <main>
         <div class="container">
-            <div class="notification d-flex justify-content-between">
+            <div class="notification d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-start">
                     <img src="assets/img/clock.svg" alt="clock" class="me-3">
-                    <p>Wij zijn vandaag <span class="text-secondary text-decoration-underline fw-semibold">open tot 22u</span></p>
+                    <p class="mb-0">Wij zijn vandaag <span class="text-secondary text-decoration-underline fw-semibold">open tot 22u</span></p>
                 </div>
-                <p>Gezellenlaan 42 - 8730 Sint-Baafs - E-mail: info@loremipsum.be</p>
+                <p class="mb-0">Gezellenlaan 42 - 8730 Sint-Baafs - E-mail: info@loremipsum.be</p>
             </div>
         </div>
-        <section class="pageheader">
-            
+        <section class="pageheader d-flex flex-column">
+            <div class="pageheader-top border border-danger">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5">
+                            <h1>Welkom bij Restaurant Lorem Ipsum</h1>
+                            <p>Bent u op zoek naar de ideale locatie voor een feest, huwelijk, verjaardag of bedrijfsevenement, 
+                                Lorem Ipsum heeft alles in huis om er een onvergetelijke ervaring van te maken!</p>
+                                <button class="btn btn-outline-gray me-2">Ons menu</button>
+                                <button class="btn btn-secondary text-white">Contacteer ons</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pageheader-form d-flex align-items-stretch border border-danger h-100">
+                <div class="container py-2">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="text-white">Online reserveren</p>
+                                <p>*Een reservatie is pas compleet na bevestiging van het restaurant</p>
+                            </div>
+                            <div class="text-end">
+                                <p class="text-white">Telefonisch reserveren</p>
+                                <a href="tel:021245978" class="text-white">02/124 59 78</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <form class="row">
+                            <div class="col-12 col-md-3 mb-3">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="col-12 col-md-3 mb-3">
+                                <input type="date" class="form-control" id="date">
+                            </div>
+                            <div class="col-12 col-md-1 mb-3">
+                                <select class="form-select" aria-label="Uur">
+                                    <option selected>Uur</option>
+                                    <option value="1">18 uur</option>
+                                    <option value="2">19 uur</option>
+                                    <option value="3">20 uur</option>
+                                  </select>
+                            </div>
+                            <div class="col-12 col-md-2 mb-3">
+                                <select class="form-select" aria-label="Aantal personen">
+                                    <option value="1">1 pers.</option>
+                                    <option value="2">2 pers.</option>
+                                    <option value="3">3 pers.</option>
+                                  </select>
+                            </div>
+                            <div class="col-12 col-md-3 mb-3">
+                                <button type="submit" class="btn btn-ternary w-100">Vraag een reservatie aan</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
         </section>
 
 

@@ -1,0 +1,16 @@
+.pageheader {
+    min-height: 42.5rem;
+    background-image: url("../img/restaurant/brooke-lark-96400.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.pageheader-top {
+    padding-block: 8rem;
+}
+
+.pageheader-form {
+    flex: 1;
+    color: $white;
+    background-color: rgba($primary, .75);
+}
